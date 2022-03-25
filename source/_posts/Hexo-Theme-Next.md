@@ -8,20 +8,20 @@ tags:
 - Blog
 - Hexo
 ---
-[NextT](https://github.com/theme-next/hexo-theme-next) is a high quality elegant Hexo theme. I used it in this Blog.
+[NextT](https://theme-next.js.org/docs/getting-started/) is a high quality elegant Hexo theme. I used it in this Blog.
 
 ## 1 Install NextT
 
 ### 1) Install NextT
 
-Dwonload NextT files to ```theme```
+Download NextT files to ```theme```
 
 ```
 # change to your hexo folder (it is blog in my case)
 $ cd blog
 
 # clone NextT from github
-$ git clone https://github.com/theme-next/hexo-theme-next.git
+$ git clone https://github.com/next-theme/theme-next-docs
 ```
 <!-- more -->
 
@@ -117,7 +117,7 @@ npm install hexo-generator-searchdb --save
 
 ```
 search:
-  path: search.xml
+  path: search.json (json is better than xml)
   field: post
   format: html
   limit: 10000

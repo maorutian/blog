@@ -39,6 +39,9 @@ hexo init blog
 #change to blog folder
 cd blog
 
+#post first blog
+hexo new post "My First Blog"
+
 #generate the static files (html, css, etc) for your website
 hexo generate
 
