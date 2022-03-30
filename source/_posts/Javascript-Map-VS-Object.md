@@ -8,7 +8,7 @@ tags:
 - Map
 - Object
 ---
-`Map` and `Object` both are data collection types, they all store key-value pairs.
+`Map` and `Object` both are data collection types, they all store key-value pairs.
 
 ### Difference
 
@@ -21,18 +21,18 @@ tags:
 
 Example:
 
-```
-> var foo = {}
-undefined
+```js
+var foo = {}
+//undefined
 
-> foo[23213] = 'swag'
-'swag'
+foo[23213] = 'swag'
+//'swag'
 
-> foo
-{ '23213': 'swag' }
+foo
+//{ '23213': 'swag' }
 
-> typeof(Object.keys(foo)[0])
-'string'
+typeof(Object.keys(foo)[0])
+//'string'
 
 ```
 
@@ -58,7 +58,7 @@ undefined
  
 A `Map` is an iterable, so it can be directly iterated.We can use `for ... of` or `forEach`.
 
-```
+```js
  for (let [key, value] of map) {
   console.log(key);
   console.log(value);
@@ -81,7 +81,7 @@ Besides, you can use `map.size` to get `length`. but you have to convert Object 
 #### Separate logic to individual property
 You variable need separate logic to different property, `Object ` is the choice. `Map` doesn't support it.
 
-```
+```js
 var obj = {
     id: 1, 
     name: "It's Me!", 
@@ -90,8 +90,6 @@ var obj = {
     }
 }
 console.log(obj.print());//Object Id: 1, with Name: It's Me.
-
-
 ```
 
 #### JSON

@@ -34,13 +34,13 @@ When we use npx, it downloads create-react-app to a template folder and delete i
 For example, we want to test our code using `Mocha`, we are going to check the version of our `Mocha`.
 ##### without NPX
 
-```
+```bash
 ./node_modules/.bin/ mocha --version
 ```
 
 ##### with NPX
 it create a new shell to run the command.
-```
+```bash
 npx mocha  --version
 ```
 Much better!

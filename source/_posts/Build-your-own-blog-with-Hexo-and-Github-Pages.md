@@ -29,7 +29,7 @@ There are various popular static HTML generator frameworks available in the mark
 ## Get Starting
 ### 1. Install Hexo and initialize our blog
 
-```
+```bash
 # install hexo
 npm install -g hexo-cli
 
@@ -65,14 +65,14 @@ Create a new repository: [https://github.com/new](https://username.github.io), r
 
 #### 2) Install Deployer Plugin
 
-```
-npm i --save hexo-deployer-git
+```bash
+npm i --save hexo-deployer-git
 ```
 
 #### 3) Deployment Configuration
 open `_config.yml` file under `blog` folder, search deploy
 
-```
+```yml
 deploy:
   type: git
   repo: https://github.com/username/username.github.io  # use your own username
@@ -82,7 +82,7 @@ deploy:
 #### 4) Deploy
 Now, we can deploy our blog, before deploy we'd clean the cache and make sure we generated static files.
 
-```
+```bash
 #Cleans the cache file (db.json) and generated files (public).
 hexo clean
 
@@ -91,7 +91,6 @@ hexo generate
 
 #Deploys your website.
 hexo deploy
-
 ```
 
 Wait one minute and Visit [https://username.github.io](https://username.github.io), Your blog is here now! Done!!

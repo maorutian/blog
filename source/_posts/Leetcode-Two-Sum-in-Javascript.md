@@ -30,15 +30,16 @@ and you may not use the same element twice.
 
 ### Code
 
-```
+```js
 var twoSum = function (nums, target) {
-      for (let i = 0; i < nums.length; i++) {
-        for (let j = i + 1; j < nums.length; j++) {
-          if (nums[j] === target - nums[i]) {
+   for (let i = 0; i < nums.length; i++) {
+      for (let j = i + 1; j < nums.length; j++) {
+         if (nums[j] === target - nums[i]) {
             return [i, j]
-          }
-        }
+         }
       }
+   }
+}   
 ```
 
 ### Complexity Analysis
@@ -69,7 +70,7 @@ Because when we check whether the number exists in the map, we use `map.has()`. 
 
 ### Code
 
-```
+```js
 var twoSum = function (nums, target) {
       const map = new Map();
       for (let i = 0; i < nums.length; i++) {
