@@ -45,11 +45,9 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
-  wrap: true
-  hljs: false
 prismjs:
   enable: false
   preprocess: true
@@ -105,6 +103,11 @@ deploy:
   type: git
   repo: https://github.com/maorutian/maorutian.github.io  # use your own username
   branch: master
+
+marked:
+  # For preserve original quotes in code blocks.
+  smartypants: false
+  lazyload: true
 
 # Search
 search:
