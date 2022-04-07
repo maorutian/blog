@@ -6,11 +6,17 @@ tags:
 # Tools
 **[Calenday: Shared Calendars to Plan Togeth](https://calenday.co)**
 
+real-time collaborative calendars for trip planning, I will try it with my friends for my next vacation after COVID:(
+
 **[Hackathon Starter: A boilerplate for Node.js web applications](https://hackathon-starter.walcony.com/)**
+
+A MVC Project based on Node.js. Well done on authentication with Twitter, Facebook, Google, GitHub, LinkedIn, Instagram Flash notifications. Maybe add a access control module so that roles & permissions can ge implemented for Authorization. Also, decoupled external notifications/push notifications, queues/internal jobs etc are beneficial for a project.
 
 # Articles
 
 **[The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid)**
+
+API semantics --> Implementation Semantics --> Documentation --> Tests --> Code Style
 
 **[How I operated as a Staff engineer at Heroku](https://amyunger.com/blog/2020/09/10/staff-engineer-at-heroku.html)**
 
