@@ -22,6 +22,11 @@ API semantics --> Implementation Semantics --> Documentation --> Tests --> Code 
 
 **[14 Linting Rules To Help You Write Asynchronous Code in JavaScript](https://maximorlov.com/linting-rules-for-asynchronous-code-in-javascript/)**
 
+**[TypeScript / How the compiler compiles](https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles)
+a more in-depth understanding about the TypeScript’s compiling process.
+
+**[](https://github.com/goldbergyoni/javascript-testing-best-practices)**
+https://github.com/goldbergyoni/javascript-testing-best-practices
 # Releases
 
 **[React v18.0](https://reactjs.org/blog/2022/03/29/react-v18.html)**
